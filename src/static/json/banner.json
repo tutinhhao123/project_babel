@@ -1,0 +1,25 @@
+
+// {
+//     "images_banner": [
+//       {
+//         "id": 1,
+//         "title": "Kinino nawa",
+//         "description": "Kinino nawa",
+//         "price": 549,
+//         "discountPercentage": 12.96,
+//         "rating": 4.69,
+//         "stock": 94,
+//         "brand": "Apple",
+//         "category": "smartphones",
+//         "thumbnail": "...",
+//         "images": ["...", "...", "..."]
+//       },
+//       {...},
+//       {...},
+//       {...}
+//       // 4 results
+//     ],
+//     "total": 4,
+//     "skip": 0,
+//     "limit": 4
+//   }

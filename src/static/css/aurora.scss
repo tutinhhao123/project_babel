@@ -1,0 +1,135 @@
+
+  
+  .wrapper {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    overflow:hidden;
+    border-radius: 40px;
+  }
+  
+  .wrapper div {
+    position: absolute;
+    filter: blur(60px);
+    opacity: 0.8;
+  }
+  
+  
+  // Basic blured shapes
+  
+  .blurred {
+    .one {
+      border-radius: 100%;
+      width: 600px;
+      height: 600px;
+      background-color: #373372;
+      left:-50px;
+      top:-300px;
+      z-index: 3;
+    }
+  
+    .two {
+      width: 500px;
+      height: 800px;
+      background-color: #7C336C;
+      bottom:-30px;
+      left:-80px;
+    }
+  
+    .three {
+      border-radius: 100%;
+      width: 450px;
+      height: 450px;
+      bottom:-80px;
+      right:-100px;
+      background-color: #B3588A;
+    }
+  }
+  
+  
+  // Radial gradient
+  
+  .radial {
+    .wrapper {
+      background-color: #fff;
+      background-image: 
+        radial-gradient(at top left, #F0ACE0, transparent),
+        radial-gradient(at top right, #FFA4B2, transparent),
+        radial-gradient(at bottom left, #A7D3F2, transparent);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  
+  
+  // Blurred image
+  
+  .image {
+    .imageWrapper {
+      height: 400px;
+      position: relative;
+      overflow:hidden;
+      border-radius: 40px;
+    }
+    .gradientImage {
+      width: 100%;
+    }
+  }
+  
+  .gradientImage.blurredImage {
+    filter: blur(60px);
+  }
+  
+  
+  // Blurred animated shapes
+  
+  .animated {
+    .one {
+      border-radius: 100%;
+      width: 600px;
+      height: 600px;
+      background-color: #373372;
+      left:-50px;
+      top:-300px;
+      z-index: 3;
+      animation: fly 12s linear infinite;
+      transform:rotate(0) translate(80px) rotate(0);
+    }
+  
+    .two {
+      width: 500px;
+      height: 800px;
+      background-color: #7C336C;
+      bottom:-30px;
+      left:-80px;
+    }
+  
+    .three {
+      border-radius: 100%;
+      width: 450px;
+      height: 450px;
+      bottom:-80px;
+      right:-100px;
+      background-color: #B3588A;
+      animation: flyPlus 8s linear infinite;
+      transform:rotate(0) translate(100px) rotate(0);
+    }
+  }
+  
+  
+  @keyframes fly {
+    100% {
+      transform:rotate(1turn) translate(100px) rotate(-1turn);
+    }
+  }
+  
+  @keyframes flyPlus {
+    100% {
+      transform:rotate(-1turn) translate(100px) rotate(1turn);
+    }
+  }
+  
+  
+  
+  

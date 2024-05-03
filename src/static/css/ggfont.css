@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+.bungee-spice-regular {
+    font-family: "Bungee Spice",Bungee Spice;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nabla&display=swap');
+  .nabla {
+    font-family: "Nabla", Bungee Spice;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 16pt;
+    font-style: normal;
+    font-variation-settings:
+      "EDPT" 100,
+      "EHLT" 12;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+  .caveat {
+    font-family: "Caveat", Bungee Spice;
+    font-optical-sizing: auto;
+    font-size: 10pt;
+    font-style: normal;
+    color:#f7dc2d
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk:MORF,SHLN@24,22.9&family=Nabla:EDPT,EHLT@161,14&display=swap');
+  .honk {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 24,
+      "SHLN" 22.9;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  .pt-sans-regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans-bold {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .pt-sans-regular-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color:aliceblue;
+  }
+  
+  .pt-sans-bold-italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  

@@ -1,0 +1,23 @@
+
+.bodyx {
+  height: 500px;
+  background-color: black;
+  overflow: hidden;
+  width:auto;
+}
+
+
+.star {
+  position: relative;
+  background-color: white;
+}
+
+@for $i from 1 through 100 {
+  .star:nth-of-type(#{$i}) {
+    top: random(101) - 1 + vh;
+    left: random(101) - 1 + vw;
+    width: random(2) + px;
+    height: random(2) + px;
+    opacity: random(50) / 100 + 0.5;
+  }
+}

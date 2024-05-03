@@ -1,0 +1,7 @@
+push project low level
+git init
+git add
+git commit
+git branch develop
+git checkout -b develop init
+git add .

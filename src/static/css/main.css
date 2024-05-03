@@ -1,0 +1,67 @@
+.background_color_theme_main_red {
+    background-color: #E43755;
+    color: #FEE9EE !important;
+}
+
+.color_text_and_search {
+    color: #FEE9EE !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* .nav-link{
+    display: block;
+    padding: 0.5rem 0;
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: rgba(0,0,0, 0.65)
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+} */
+/* @font-face {
+    font-family: "Pacifico";
+    src: url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+    } */
+.announcement {
+    background-color: rgb(18, 48, 38);
+    border-radius: 1.5em;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.font_for_all {
+    font-family: "Roboto Mono", monospace !important;
+}
+
+
+.font_navbar {
+    color: rgb(18, 48, 38) !important;
+    font-family: "Roboto Mono", monospace;
+
+}
+
+#navbarScrollingDropdown {
+    color: rgb(18, 48, 38) !important;
+    font-family: "Roboto Mono", monospace !important;
+
+}
+
+.dropdown-item {
+    color: rgb(18, 48, 38) !important;
+    font-family: "Roboto Mono", monospace !important;
+
+}
+
+.text-muted{
+    font-family: "Roboto Mono", monospace !important;
+    color: rgb(18, 48, 38) !important;
+
+}
+h5{
+    font-family: "Roboto Mono", monospace !important;
+    color: rgb(18, 48, 38) !important;
+
+}
